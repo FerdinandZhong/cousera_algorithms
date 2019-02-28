@@ -47,7 +47,7 @@ if __name__ == '__main__':
         content = f.readlines()
     content = [int(x.strip()) for x in content]
     # content = [1, 4, 45, 6, 10, 10, 8]
-    # num_dict = insert_nums_into_python_ht(sorted(content))
-    # print(list(islice(num_dict.items(), 10)))
-    # print(count_sum(num_dict))
-    print(compute_values(sorted(content)))
+    num_dict = insert_nums_into_python_ht(sorted(content))
+    print(list(islice(num_dict.items(), 10)))
+    print(count_sum(num_dict))
+    # print(compute_values(sorted(content)))
